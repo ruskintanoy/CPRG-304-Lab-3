@@ -2,9 +2,9 @@ package implementations;
 
 import java.util.ArrayList;
 
-import utilities.DictionaryADTPart1;
+import utilities.DictionaryADT;
 
-public class Dictionary<K,V> implements DictionaryADTPart1<K,V>
+public class Dictionary<K,V> implements DictionaryADT<K,V>
 {
 	// constant
 	private static final int DEFAULT_SIZE = 10;
